@@ -15,7 +15,7 @@ if (isset($_POST['addclass']) && isset($_POST['add-passed']) &&
     $userid = $_POST['Userid'];
     echo $userid . "<br>";
     $sql = "INSERT INTO `grade` (`ClassId`, `UserId`, `Passed`, `Grade`, `GpaWeight`) VALUES " .
-    "('$course_number', '$userid', '$pass', '$grade', '$gpa')" .
+    "('$course_number', '$userid', $pass, '$grade', '$gpa')" .
     ";";
     echo $sql . "<br>";
     $res = $connection->query($sql);
