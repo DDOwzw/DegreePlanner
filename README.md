@@ -1,6 +1,8 @@
 # DegreePlanner
 A Degree Planner for UTD. Default including CS master courses (both core and eligible). Use PHP and XAMPP for back-end, and JavaScript, JQuery for front-end.
 
+Please use XAMPP and paste all the codes to the htdocs folder. The main page of this planner is the menu.php
+
 First, create a folder (DegreePlanner in xampp htdoc for this project) to include all   programs and data files here for this assignment. The zip file of DegreePlanner folder should be submitted to elearning. 
 	./DegreePlanner		for all degree planner code
 	./DegreePlanner/sql		for all the sql files (experted from mySQL)
